@@ -1,1 +1,17 @@
-In this folder you will find all the code related to the dynamic approach of the anomaly detection project.
+# EvolveGCN
+
+This repository contains the implementation of the EvolveGCN model for dynamic graph learning, integrated with a Random Forest classifier for enhanced illicit transaction detection in the Elliptic dataset.
+
+## Conda Environment Setup
+
+To replicate the environment used for this project, follow the steps below to install the necessary dependencies using Conda.
+
+### Steps to Install the Conda Environment
+
+1. **Ensure Conda is Installed**: Make sure you have Conda installed on your system. If not, download and install it from the [Anaconda website](https://www.anaconda.com/products/distribution#download-section).
+
+2. **Navigate to the Directory**: Open your terminal or command prompt and navigate to the directory where your `evolvegcn.yalm` file is located.
+
+3. **Create the Conda Environment**: Use the following command to create a new conda environment from the `evolvegcn.yalm` file:
+   ```sh
+   conda env create -f evolvegcn.yalm
