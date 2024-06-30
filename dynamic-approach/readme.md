@@ -24,7 +24,7 @@ To replicate the environment used for this project, follow the steps below to in
 
 Due to the requirements and limitations of the Deep Graph Library (DGL), the .yalm file provided in this repository is only valid for CUDA 11.7 and CUDA 11.8.
 
-For adjustments to other CUDA versions, please refer to the DGL installation guide available at: DGL [Installation Guide] (https://www.dgl.ai/pages/start.html)
+For adjustments to other CUDA versions, please refer to the DGL installation guide available at: DGL [Installation Guide](https://www.dgl.ai/pages/start.html)
 
 **Notes**
 
