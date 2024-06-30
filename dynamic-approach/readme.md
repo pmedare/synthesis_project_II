@@ -20,6 +20,15 @@ To replicate the environment used for this project, follow the steps below to in
    ```sh
    conda activate evolvegcn
 
+**Run**
+* donwload Elliptic dataset from [kaggle](https://kaggle.com/ellipticco/elliptic-data-set)
+* unzip the dataset into a raw directory, such as /home/Elliptic/elliptic_bitcoin_dataset/
+* make a new dir to save processed data, such as /home/Elliptic/processed/  
+* run train.py by:
+```bash
+python train.py --raw-dir /home/Elliptic/elliptic_bitcoin_dataset/ --processed-dir /home/Elliptic/processed/
+```
+
 **CUDA Compatibility**
 
 Due to the requirements and limitations of the Deep Graph Library (DGL), the .yalm file provided in this repository is only valid for CUDA 11.7 and CUDA 11.8.
