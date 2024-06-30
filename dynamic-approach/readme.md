@@ -31,5 +31,6 @@ For adjustments to other CUDA versions, please refer to the DGL installation gui
    - Ensure your system has the compatible CUDA version installed before proceeding with the environment setup.
    - If you encounter any issues or have questions, please feel free to open an issue in this repository.
 
+**Inspiration**
 
-
+This work has been inspired by the following repository: [EvolveGCN-DGL](https://github.com/maqy1995/EvolveGCN-DGL)
