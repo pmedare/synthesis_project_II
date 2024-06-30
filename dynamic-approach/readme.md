@@ -10,11 +10,11 @@ To replicate the environment used for this project, follow the steps below to in
 
 1. **Ensure Conda is Installed**: Make sure you have Conda installed on your system. If not, download and install it from the [Anaconda website](https://www.anaconda.com/products/distribution#download-section).
 
-2. **Navigate to the Directory**: Open your terminal or command prompt and navigate to the directory where your `evolvegcn.yalm` file is located: src.
+2. **Navigate to the Directory**: Open your terminal or command prompt and navigate to the directory where your `evolvegcn.yaml` file is located.
 
-3. **Create the Conda Environment**: Use the following command to create a new conda environment from the `evolvegcn.yalm` file:
+3. **Create the Conda Environment**: Use the following command to create a new conda environment from the `evolvegcn.yaml` file:
    ```sh
-   conda env create -f evolvegcn.yalm
+   conda env create -f evolvegcn.yaml
 
 4. **Activate the Environment**: After the environment is created, activate it using:
    ```sh
